@@ -2,31 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <!--links css -->
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="./styles/desktop1440.css" media="screen and (min-width: 1440px)">
-  <!--Fuentes css-->
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Stats preview card component</title>
 
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Feel free to remove or customize these styles in your own stylesheet -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-
-
 </head>
 <body>
   <div class="contenedor_estatus">
-    
+    <!-- Filtro de Imagen -->
     <div class="filtro">
       <picture>
         <source media="screen and (min-width: 1440px)" srcset="./images/image-header-desktop.jpg">
@@ -34,33 +34,24 @@
       </picture>
     </div>
     
+    <!-- Contenedor de Información -->
     <div class="contenedor_informacion">
-      <h2>
-        Get <span>insights</span> that help your business grow.
-      </h2>
-      <p>
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.
-      </p>
+      <h2>Get <span>insights</span> that help your business grow.</h2>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 
+      <!-- Información de Estadísticas -->
       <div class="informacion_estatus">
         <div class="contenedor_informacion_estatus_pagina">
           10k+ 
-          <div class="contenedor_informacion_estatus_titulos">
-            companies
-          </div>
+          <div class="contenedor_informacion_estatus_titulos">companies</div>
         </div>
         <div class="contenedor_informacion_estatus_pagina">
           314 
-          <div class="contenedor_informacion_estatus_titulos">
-            templates
-          </div>
+          <div class="contenedor_informacion_estatus_titulos">templates</div>
         </div>
         <div class="contenedor_informacion_estatus_pagina">
           12m+
-          <div class="contenedor_informacion_estatus_titulos">
-            queries
-          </div>
+          <div class="contenedor_informacion_estatus_titulos">queries</div>
         </div> 
       </div>
     </div>
